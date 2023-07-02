@@ -67,6 +67,7 @@ from .morphology import *
 from .record import *
 from .text import *
 
+app.app_context().push()
 db.create_all()
 
 from .database import *
@@ -94,7 +95,7 @@ def start(gui, use_anon=True, create_memory=False):
     elif gui.user:
         gui.session = iwqet.Session(source=gui.source, target=gui.target, user=gui.user)
 
-def load(source='amh', target='sgw', gui=None):
+def load(source='amh', target='eng', gui=None):
     """
     Load source and target languages for translation.
     """

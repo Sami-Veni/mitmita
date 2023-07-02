@@ -1,0 +1,16 @@
+docx
+flask_sqlalchemy
+exceptions
+flask
+itertools
+queue
+random
+copy
+yaml
+regex
+beautifulsoup4
+python-social-auth
+requests
+pyyaml
+https://github.com/nltk/nltk/tarball/develop
+# werkzeug
